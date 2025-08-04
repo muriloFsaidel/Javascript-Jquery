@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,  initial-scale=1">
+    <title>Usando a blibioteca jquery</title>
+    <style>
+        .green {
+            background-color: green;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: larger;
+        }
+
+        button {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: larger;
+        }
+
+        legend {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: larger;
+        }
+
+        #i2,
+        #i3,
+        #i4 {
+            display: none;
+        }
+
+        a {
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgba(0, 0, 255, 1);
+            font-size: 25px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <legend> Com e Sem Ids</legend>
+        <h1> Olá, Mundo!</h1>
+        <h1> Olá 2</h1>
+        <h2 id="unico"> Olá 3</h1>
+            <button>Esconder Olá, Mundo!</button>
+    </fieldset>
+
+    <fieldset>
+        <legend>Com Ids e Classes</legend>
+        <p class="msg">Mensagem 1</p>
+        <p class="msg">Mensagem 2</p>
+        <button id="azul">Azul</button>
+        <button id="vermelho" class="red">vermelho</button>
+        <span id="msg_gravada"></span>
+    </fieldset>
+
+    <fieldset>
+        <legend>Carousel</legend>
+        <img src="./src/img/1.PNG" alt="imagem1" id="i1">
+        <img src="./src/img/2.PNG" alt="imagem2" id="i2">
+        <img src="./src/img/3.PNG" alt="imagem3" id="i3">
+        <img src="./src/img/4.PNG" alt="imagem4" id="i4">
+        <br>
+        <a href="#" id="l1">1</a>
+        <a href="#" id="l2">2</a>
+        <a href="#" id="l3">3</a>
+        <a href="#" id="l4">4</a>
+    </fieldset>
+    <fieldset>
+        <legend>Links</legend>
+        <a href="desafio-caclculadora.html"> Desafio por conta própria, para praticar os conceitos de HTML,
+            CSS, Javascript e JQuery</a>
+        <br>
+        <br>
+        <a href="index.html"> Voltar</a>
+    </fieldset>
+    <footer>
+        <script src="./src/js/jquery.min.js"></script>
+        <script src="./src/js/script_jquery.js"></script>
+    </footer>
+</body>
+
+</html>

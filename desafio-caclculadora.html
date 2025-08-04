@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./src/css/calculadora.css">
+</head>
+<body>
+    <a href="jquery.html">Voltar</a>
+    <div class="container">
+        <fieldset>
+            <legend>Calculadora - JScript <span style="color: cyan;">Puro</span></legend>
+            <div class="display">
+                <input type="text" id="display-number" readonly />
+            </div>
+
+            <div class="operacoes">
+                <button id="soma">+</button>
+                <button id="sub">-</button>
+                <button id="div">/</button>
+                <button id="multi">*</button>
+                <button id="modulo">%</button>
+            </div>
+            <div class="digitos">
+                <button id="d1" value="1">1</button>
+                <button id="d2" value="2">2</button>
+                <button id="d3" value="3">3</button>
+                <button id="d4" value="4">4</button>
+                <button id="d5" value="5">5</button>
+                <button id="d6" value="6">6</button>
+                <button id="d7" value="7">7</button>
+                <button id="d8" value="8">8</button>
+                <button id="d9" value="9">9</button>
+                <button id="d0" value="0">0</button>
+                <div class="confirmacao">
+                    <button id="igual" value="igual">=</button>
+                    <button id="remover" value="x">/x/</button>
+                    <button id="limpar" value="CE">CE</button>
+                </div>
+            </div>
+
+        </fieldset>
+        <div class="comaparacao">
+            <img src="./src/img/seta.PNG" alt="seta" />
+        </div>
+
+        <fieldset>
+            <legend>Calculadora - JScript <span style="color: yellow;">JQuery</span></legend>
+            <div class="display">
+                <input type="text" id="jDisplay-number" readonly />
+            </div>
+
+            <div class="operacoes">
+                <button id="jSoma">+</button>
+                <button id="jSub">-</button>
+                <button id="jDiv">/</button>
+                <button id="jMulti">*</button>
+                <button id="jModulo">%</button>
+            </div>
+            <div class="digitos">
+                <button id="jD1" value="1">1</button>
+                <button id="jD2" value="2">2</button>
+                <button id="jD3" value="3">3</button>
+                <button id="jD4" value="4">4</button>
+                <button id="jD5" value="5">5</button>
+                <button id="jD6" value="6">6</button>
+                <button id="jD7" value="7">7</button>
+                <button id="jD8" value="8">8</button>
+                <button id="jD9" value="9">9</button>
+                <button id="jD0" value="0">0</button>
+                <div class="confirmacao">
+                    <button id="jIgual" value="igual">=</button>
+                    <button id="jRemover" value="x">/x/</button>
+                    <button id="jLimpar" value="CE">CE</button>
+                </div>
+            </div>
+
+        </fieldset>
+    </div>
+
+    <script src="./src/js/calculadora.js"></script>
+    <script src="./src/js/jquery.min.js"></script>
+    <script src="./src/js/calculadoraJquery.js"></script>
+</body>
+
+</html>

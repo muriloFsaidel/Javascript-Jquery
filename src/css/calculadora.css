@@ -1,0 +1,120 @@
+.container {
+    width: 395px;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+legend {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 300;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+fieldset {
+    height: 560px;
+    box-shadow: 1px 1px 1px #000000;
+    border: 3.5px solid rgba(255, 0, 0, 0.3);
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display input {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    height: 10px;
+    width: 280px;
+    font-size: 30px;
+    padding: 10px;
+    margin: 20px auto 20px auto;
+    font-weight: 900;
+    text-align: right;
+}
+
+.operacoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.operacoes button {
+    margin: 14px;
+    margin-right: 16px;
+    width: 40px;
+    padding: 14px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
+    color: #ffffff;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.digitos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 29px;
+}
+
+.digitos button {
+    margin: 14px;
+    margin-right: 53px;
+    width: 40px;
+    padding: 14px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
+    color: #ffffff;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.confirmacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.confirmacao button {
+    margin: 14px;
+    width: 60px;
+    padding: 14px;
+    background-color: rgba(0, 0, 255, 0.6);
+    border-radius: 6px;
+    color: #ffffff;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.comaparacao {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.comaparacao img {
+    height: 150px;
+    width: 140px;
+}
+
+a {
+    position: absolute;
+    margin-left: 46%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 255, 1);
+    font-size: 35px;
+    cursor: pointer;
+}
