@@ -201,11 +201,14 @@ remover.addEventListener("click", function () {
     }
     digito = temp2;
     displayNumber.value = digito;
+    operacao = "";
+    resultado = 0;
 });
 
 limpar.addEventListener("click", function () {
-    digito = '0';
     displayNumber.value = digito;
+    operacao = "";
+    resultado = 0;
 });
 
 /* OPERAÇÕES*/

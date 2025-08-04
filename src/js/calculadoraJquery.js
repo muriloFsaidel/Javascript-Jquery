@@ -179,11 +179,14 @@ $(function () {
         }
         digito = temp2;
         $('#jDisplay-number').val(digito);
+        operacao = "";
+        resultado = 0;
     });
 
     $('#jLimpar').click(function () {
-        digito = '0';
         $('#jDisplay-number').val(digito);
+        operacao = "";
+        resultado = 0;
     });
 
     function somar() {
@@ -198,7 +201,7 @@ $(function () {
         }
 
     }
-    
+
     function subtrair() {
 
         if (resultado == 0) {
