@@ -20,7 +20,7 @@ console.log(resto)+"\n";
 if ( c % 2 == 1 ){
     console.log("Cláusula if verdadeiro, O número "+ c +" é impar"+"\n");
 } else if (c % 2 == 0){
-    aconsole.log("Cláusula else if verdadeiro, O número "+ c +" é par"+"\n");
+    console.log("Cláusula else if verdadeiro, O número "+ c +" é par"+"\n");
 } else {
     console.log("Cláusula else, Valor inválido"+"\n");
 }
